@@ -5,18 +5,18 @@
     "min_samples_split": 4
   },
   "metrics": {
-    "accuracy": 0.99,
-    "precision": 0.92,
-    "recall": 0.96,
-    "f1": 0.87
+    "accuracy": 0.6782,
+    "precision": 0.7,
+    "recall": 0.6782,
+    "f1": 0.6802
   },
   "scores": {
-    "train_accuracy": 0.88,
-    "val_accuracy": 0.84,
-    "test_accuracy": 0.54
+    "train_accuracy": 0.6753,
+    "val_accuracy": 0.6677,
+    "test_accuracy": 0.6782
   },
   "training_info": {
-    "training_time": 0.24,
-    "n_estimator": 800
+    "training_time": 2.5848,
+    "n_estimator": null
   }
 }
