@@ -1,0 +1,72 @@
+{
+  "Voting Ensemble": {
+    "category": "Voting Ensemble",
+    "model_name": "VotingClassifier",
+    "best_params": {
+      "estimators": {
+        "logistic_regression": {
+          "C": 0.1,
+          "solver": "lbfgs",
+          "max_iter": 1000,
+          "random_state": 42
+        },
+        "knn": {
+          "n_neighbors": 3,
+          "weights": "distance"
+        },
+        "decision_tree": {
+          "max_depth": 12,
+          "min_samples_split": 2,
+          "random_state": 42
+        }
+      },
+      "voting": "soft"
+    },
+    "data_info": {
+      "n_train": 54000,
+      "n_validation": 6000,
+      "n_train_plus_validation": 60000,
+      "n_test": 10000
+    },
+    "validation_experiment": {
+      "train_metrics": {
+        "accuracy": 0.9921111111111112,
+        "precision_macro": 0.9921502233912797,
+        "recall_macro": 0.9920429997796351,
+        "f1_macro": 0.992090591632268,
+        "wrong_samples": 425
+      },
+      "validation_metrics": {
+        "accuracy": 0.959,
+        "precision_macro": 0.9590593231020191,
+        "recall_macro": 0.9585670861949758,
+        "f1_macro": 0.9587262164049035,
+        "wrong_samples": 246
+      },
+      "scores": {
+        "train_accuracy": 0.9921111111111112,
+        "validation_accuracy": 0.959
+      }
+    },
+    "final_test_experiment": {
+      "train_plus_validation_metrics": {
+        "accuracy": 0.9915333333333334,
+        "precision_macro": 0.9915605973972064,
+        "recall_macro": 0.9914916553675852,
+        "f1_macro": 0.9915215351466358,
+        "wrong_samples": 507
+      },
+      "test_metrics": {
+        "accuracy": 0.9608,
+        "precision_macro": 0.9606177206206261,
+        "recall_macro": 0.9603133888063349,
+        "f1_macro": 0.9604206756599339,
+        "wrong_samples": 392
+      },
+      "scores": {
+        "train_plus_validation_accuracy": 0.9915333333333334,
+        "test_accuracy": 0.9608
+      }
+    }
+  }
+}

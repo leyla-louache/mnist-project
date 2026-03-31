@@ -1,0 +1,84 @@
+{
+  "Stacking Ensemble": {
+    "category": "Stacking Ensemble",
+    "model_name": "StackingClassifier",
+    "best_params": {
+      "estimators": {
+        "decision_tree": {
+          "max_depth": 15,
+          "min_samples_split": 10,
+          "min_samples_leaf": 2,
+          "criterion": "entropy",
+          "random_state": 42
+        },
+        "knn": {
+          "n_neighbors": 4,
+          "weights": "distance"
+        },
+        "log_reg": {
+          "C": 0.1,
+          "penalty": "l2",
+          "solver": "lbfgs",
+          "max_iter": 1000,
+          "random_state": 42
+        }
+      },
+      "final_estimator": {
+        "name": "HistGradientBoostingClassifier",
+        "max_iter": 200,
+        "learning_rate": 0.1,
+        "max_depth": 12,
+        "random_state": 42
+      },
+      "passthrough": true,
+      "cv": 5,
+      "n_jobs": -1
+    },
+    "data_info": {
+      "n_train": 54000,
+      "n_validation": 6000,
+      "n_train_plus_validation": 60000,
+      "n_test": 10000
+    },
+    "validation_experiment": {
+      "train_metrics": {
+        "accuracy": 1.0,
+        "precision_macro": 1.0,
+        "recall_macro": 1.0,
+        "f1_macro": 1.0,
+        "wrong_samples": 0
+      },
+      "validation_metrics": {
+        "accuracy": 0.9773333333333334,
+        "precision_macro": 0.977335235144366,
+        "recall_macro": 0.9771554121194393,
+        "f1_macro": 0.9772145398185341,
+        "wrong_samples": 135
+      },
+      "scores": {
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.9773333333333334
+      }
+    },
+    "final_test_experiment": {
+      "train_plus_validation_metrics": {
+        "accuracy": 0.9998833333333333,
+        "precision_macro": 0.9998825939286222,
+        "recall_macro": 0.9998946950833819,
+        "f1_macro": 0.999888617698543,
+        "wrong_samples": 6
+      },
+      "test_metrics": {
+        "accuracy": 0.9796,
+        "precision_macro": 0.979526296785002,
+        "recall_macro": 0.9793872254944676,
+        "f1_macro": 0.9794484784733848,
+        "wrong_samples": 203
+      },
+      "scores": {
+        "train_plus_validation_accuracy": 0.9998833333333333,
+        "test_accuracy": 0.9796
+      }
+    }
+  }
+}
