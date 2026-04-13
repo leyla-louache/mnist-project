@@ -1,0 +1,152 @@
+[
+  {
+    "model": "simple_stacking_model_clean",
+    "accuracy": 0.9741,
+    "f1_weighted": 0.9740695445734371
+  },
+  {
+    "model": "advanced_stacking_model_clean",
+    "accuracy": 0.9836,
+    "f1_weighted": 0.9835924571818226
+  },
+  {
+    "model": "model_simple.keras_clean",
+    "accuracy": 0.9851,
+    "f1_weighted": 0.9850847949597242
+  },
+  {
+    "model": "model_drop.keras_clean",
+    "accuracy": 0.9906,
+    "f1_weighted": 0.9906005982208391
+  },
+  {
+    "model": "model_drop_move.keras_clean",
+    "accuracy": 0.986,
+    "f1_weighted": 0.9860012736179428
+  },
+  {
+    "model": "model_drop_full.keras_clean",
+    "accuracy": 0.9896,
+    "f1_weighted": 0.9895975522071767
+  },
+  {
+    "model": "simple_stacking_model_moved",
+    "accuracy": 0.7731,
+    "f1_weighted": 0.7712650414752468
+  },
+  {
+    "model": "advanced_stacking_model_moved",
+    "accuracy": 0.8146,
+    "f1_weighted": 0.8134357454564928
+  },
+  {
+    "model": "model_simple.keras_moved",
+    "accuracy": 0.9031,
+    "f1_weighted": 0.9028030267516619
+  },
+  {
+    "model": "model_drop.keras_moved",
+    "accuracy": 0.9286,
+    "f1_weighted": 0.9285332824010942
+  },
+  {
+    "model": "model_drop_move.keras_moved",
+    "accuracy": 0.982,
+    "f1_weighted": 0.9819926216972245
+  },
+  {
+    "model": "model_drop_full.keras_moved",
+    "accuracy": 0.9832,
+    "f1_weighted": 0.983199731981583
+  },
+  {
+    "model": "simple_stacking_model_moved_big",
+    "accuracy": 0.3225,
+    "f1_weighted": 0.3164100468072873
+  },
+  {
+    "model": "advanced_stacking_model_moved_big",
+    "accuracy": 0.3516,
+    "f1_weighted": 0.34573064920900787
+  },
+  {
+    "model": "model_simple.keras_moved_big",
+    "accuracy": 0.4902,
+    "f1_weighted": 0.48345041774405806
+  },
+  {
+    "model": "model_drop.keras_moved_big",
+    "accuracy": 0.5124,
+    "f1_weighted": 0.5113328818388303
+  },
+  {
+    "model": "model_drop_move.keras_moved_big",
+    "accuracy": 0.9653,
+    "f1_weighted": 0.9653126170600753
+  },
+  {
+    "model": "model_drop_full.keras_moved_big",
+    "accuracy": 0.9641,
+    "f1_weighted": 0.9641478165573771
+  },
+  {
+    "model": "simple_stacking_model_rotate",
+    "accuracy": 0.9157,
+    "f1_weighted": 0.915650354268975
+  },
+  {
+    "model": "advanced_stacking_model_rotate",
+    "accuracy": 0.9186,
+    "f1_weighted": 0.9190098805447949
+  },
+  {
+    "model": "model_simple.keras_rotate",
+    "accuracy": 0.9261,
+    "f1_weighted": 0.926136617604133
+  },
+  {
+    "model": "model_drop.keras_rotate",
+    "accuracy": 0.9439,
+    "f1_weighted": 0.9438352754143927
+  },
+  {
+    "model": "model_drop_move.keras_rotate",
+    "accuracy": 0.9258,
+    "f1_weighted": 0.9257288612423068
+  },
+  {
+    "model": "model_drop_full.keras_rotate",
+    "accuracy": 0.9814,
+    "f1_weighted": 0.9813876585710808
+  },
+  {
+    "model": "simple_stacking_model_mixed",
+    "accuracy": 0.8893,
+    "f1_weighted": 0.8891578403272228
+  },
+  {
+    "model": "advanced_stacking_model_mixed",
+    "accuracy": 0.907,
+    "f1_weighted": 0.907155230711393
+  },
+  {
+    "model": "model_simple.keras_mixed",
+    "accuracy": 0.9378,
+    "f1_weighted": 0.9376726437767664
+  },
+  {
+    "model": "model_drop.keras_mixed",
+    "accuracy": 0.9526,
+    "f1_weighted": 0.9526032216682903
+  },
+  {
+    "model": "model_drop_move.keras_mixed",
+    "accuracy": 0.9649,
+    "f1_weighted": 0.964881361815604
+  },
+  {
+    "model": "model_drop_full.keras_mixed",
+    "accuracy": 0.9856,
+    "f1_weighted": 0.9856004460322223
+  }
+]
